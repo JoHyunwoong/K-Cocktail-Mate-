@@ -10,8 +10,8 @@ def pumpAlcohol(rate):
     sec1 = 0   #total sec of sso
     sec2 = 0   #total sec of mac
     amount_per_sec = 5 # output of pump per second
-    global amount_sso = 360
-    global amount_mac = 500
+    global amount_sso 
+    global amount_mac 
     
      # initialize GPIO
     GPIO.setmode(GPIO.BCM)
